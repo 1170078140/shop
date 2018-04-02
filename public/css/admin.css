@@ -1,0 +1,153 @@
+.container{
+    height: 100vh;
+}
+.wrap{
+    border: 2px solid #d3e0e9;
+    padding:20px 0;
+    border-top:none;
+    border-bottom: none;
+}
+
+.content{
+    min-height: 600px;
+    border: 1px solid #d3e0e9;
+    padding:20px;
+}
+
+.content table{
+    margin: 20px;
+}
+
+.title {
+    padding-left:15px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom:1px solid #d3e0e9;
+}
+
+
+.panel-default>.panel-heading{
+    background-color: #f5f5f5;
+}
+.header,.footer{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size:22px;
+    border: 2px solid #d3e0e9;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.header{
+    text-align: left;
+    padding-left:20px;
+}
+
+.header .logo{
+    float: left;
+}
+
+.header .username{
+    float: right;
+    font-size: 18px;
+}
+
+.header .logout{
+    float: right;
+    margin-right:20px;
+    font-size:18px;
+}
+
+.footer{
+    font-size:16px;
+}
+
+.category_add{
+    width:80%;
+}
+
+.category_add tr{
+    height: 50px;
+    line-height: 50px;
+}
+
+.category_add tr td:first-child{
+    text-align:right;
+}
+
+.category_add input{
+    height: 30px;
+    line-height: 30px;
+}
+
+.category_edit{
+    width:80%;
+}
+
+.category_edit tr{
+    height: 40px;
+    line-height: 40px;
+}
+
+.category_edit td,.category_edit th{
+    border-bottom:#ebebeb 1px solid;
+}
+
+.good_edit{
+    width:680px;
+    border-collapse: collapse;
+    border:#ebebeb 1px solid;
+}
+
+.good_edit tr{
+    height: 60px;
+    line-height: 60px;
+}
+
+
+
+.good_edit tr td:first-child{
+    border:#ebebeb 1px solid;
+}
+
+.good_edit td,.good_edit th{
+    border:#ebebeb 1px solid;
+    text-align: center;
+}
+
+.good_edit th{
+    border:#ebebeb 1px solid;
+    text-align:center;
+}
+
+.good_edit img{
+    width:50px;
+}
+
+.pagelink{
+    text-align: center;
+}
+
+.error p{
+    margin: 0;
+    color:red;
+    line-height: 25px;
+    text-align: left;
+}
+
+.userlist {
+    border-collapse: collapse;
+    border:1px #ebebeb solid;
+    width:500px;
+}
+
+.userlist tr{
+    height: 30px;
+    line-height: 30px;
+}
+
+.userlist td,.userlist th{
+    border:1px #ebebeb solid;
+    text-align:center;
+}
+
